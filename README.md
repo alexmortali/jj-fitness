@@ -30,8 +30,8 @@ Also in the 'clients' section of the website there will be an option too view ot
 implemented when Josh's client base grows using the 'Carousel' feature within Bootstrap.
 
 Technologies Used  
-1 - HTML: This project uses HTML as the skeleton of the website.
-2 - CSS: This project uses CSS to control the presentation of the website.
+1 - HTML: This project uses HTML as the skeleton of the website.  
+2 - CSS: This project uses CSS to control the presentation of the website.  
 3 - Bootstrap(3.3.7): This project uses Bootstrap as it's framework to make the site responsive.
 
 Testing

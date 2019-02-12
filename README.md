@@ -4,7 +4,7 @@ by Alex Mortali
 
 This is a website for Josh Jones's personal training business. 
 The website serves to create an online presence for Josh, it covers a bit about himself, his clients, the services he provides, a contact form and links to his social media.
-The website also includes a free pdf for his clients too download.
+The website also includes a free pdf for his clients to download.
 
 Demo
 

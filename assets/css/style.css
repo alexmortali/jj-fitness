@@ -1,1 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*-----------------------------------------NavBar*/
+
+/*-----------------------------------------Landing View*/
+
+.callout-container {
+    background: url('../images/landing-view-desktop-test-2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+/*-----------------------------------------Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.jumbotron .fitness-journey {
+    margin: 25px 0;
+    color: #666;
+    font-weight: 400;
+}
+
+.jumbotron mark {
+    background-color: #dcdcdc;
+}
+
+
+/*-----------------------------------------Block Dividers*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #269ccc;
+    margin-top: 20px;
+}
+
+
+/*-----------------------------------------Buttons*/
+
+.btn--contact {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    background-color: #269ccc;
+    color: #fafafa;
+    margin-top: 18px;
+}
+
+.btn--contact:hover,
+.btn--contact:active,
+.btn--contact:focus,
+.btn--contact:active:focus {
+    color: black;
+}

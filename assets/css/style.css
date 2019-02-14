@@ -62,7 +62,7 @@ body {
 /*-----------------------------------------Landing View*/
 
 .callout-container {
-    background: url('../images/landing-view-desktop-test-2.jpg') no-repeat center center fixed;
+    background: url('../images/landing-view.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -96,13 +96,13 @@ body {
 
 /*-----------------------------------------About Section*/
 .about-me {
-    background-color: rgba(211,211,211, 0.3)
+    background-color: rgba(211,211,211, 0.4)
 }
 
 .about-me img {
-    height: 80%;
-    width: 80%;
-    margin-left: 50px;
+    height: 85%;
+    width: 85%;
+    margin-left: 40px;
 }
 
 /*-----------------------------------------Block Dividers*/

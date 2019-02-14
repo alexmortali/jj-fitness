@@ -6,26 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
     <!-- Landing-View -->
+    <!-- NavBar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">About</a></li>
+                <li><a href="#about">Clients</a></li>
+                <li><a href="#contact">Training</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">6 Pack Guide</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /NavBar -->
+
+    <!-- Callout -->
     <div class="container-fluid callout-container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <section class="callout jumbotron text-center">
-                        <h1>Josh Jones Fitness</h1>
-                        <hr class='block-divider block-divider-blue'>
-                        <p class="fitness-journey">Start your fitness journey today.</p>
-                        <p><strong><mark>First session free!</mark></strong></p>
-                        <p><button class="btn btn-lg btn--contact" data-toggle='modal' data-target='#contactModal'>Contact Me!</button></p>
-                    </section>
-                </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <section class="callout jumbotron text-center">
+                    <h1>Josh Jones Fitness</h1>
+                    <hr class='block-divider block-divider-blue'>
+                    <p class="fitness-journey">Start your fitness journey today.</p>
+                    <p><strong><mark>First session free!</mark></strong></p>
+                    <p><button class="btn btn-lg btn--contact" data-toggle='modal' data-target='#contactModal'>Contact Me!</button></p>
+                </section>
             </div>
         </div>
+    </div>
+    <!-- Callout -->
     <!-- /.Landing-view -->
 
     <!-- About -->
@@ -54,6 +77,9 @@
 
     <!-- Contact Form Modal -->
     <!-- /Contact Form Modal -->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>

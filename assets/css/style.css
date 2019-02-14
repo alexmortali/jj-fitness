@@ -7,29 +7,31 @@ body {
 /*-----------------------------------------NavBar*/
 
 /*--Code taken from https://www.bootply.com/114896# (See README file)--*/
+
 .navbar-header {
-  float: none;
+    float: none;
 }
 
 .navbar-toggle {
-  display: block;
+    display: block;
 }
 
 .navbar-collapse.collapse {
-  display: none!important;
+    display: none!important;
 }
 
 .navbar-nav {
-  float: none!important;
+    float: none!important;
 }
 
 .navbar-nav>li {
-  float: none;
+    float: none;
 }
 
-.navbar-collapse.collapse.in{
-  display:block !important;
+.navbar-collapse.collapse.in {
+    display: block !important;
 }
+
 /*--End of https://www.bootply.com/114896# code--*/
 
 .navbar {
@@ -37,12 +39,23 @@ body {
     border-color: transparent !important;
     margin-top: 20px;
     margin-right: 20px;
-    
+
 }
 
 .navbar li {
     text-align: right;
     text-transform: uppercase;
+}
+
+.navbar a {
+    padding-top: 0px !important;
+    padding-bottom: 5px !important;
+    letter-spacing: 3px;
+    color: #313639 !important;
+}
+
+.navbar button {
+    border-radius: 10%;
 }
 
 /*-----------------------------------------Landing View*/
@@ -112,3 +125,22 @@ body {
 .btn--contact:active:focus {
     color: black;
 }
+
+/*-----------------------------------------Media Queries*/
+
+@media (min-width: 992px) {
+    .navbar a {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        letter-spacing: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar a {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        letter-spacing: 5px;
+    }
+}
+

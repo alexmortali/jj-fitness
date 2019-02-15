@@ -99,6 +99,23 @@ body {
     background-color: rgba(211,211,211, 0.4)
 }
 
+.about-row {
+    font-size: 170%;
+    line-height: 2;
+}
+
+.about-me h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.about-me .about-me-p {
+    margin-top: 10%;
+    margin-left: 10px;
+}
+
 .about-me img {
     height: 85%;
     width: 85%;

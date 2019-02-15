@@ -95,7 +95,7 @@ body {
 }
 
 /*-----------------------------------------About Section*/
-.about-me {
+.about-me-container {
     background-color: rgba(211,211,211, 0.4)
 }
 
@@ -104,24 +104,47 @@ body {
     line-height: 2;
 }
 
-.about-me h2 {
+.about-row h2 {
     text-transform: uppercase;
+    font-weight: 400;
     letter-spacing: 5px;
     margin-top: 10%;
     margin-left: 20px;
 }
 
-.about-me .about-me-p {
+.about-row .about-me-p {
     margin-top: 10%;
     margin-left: 10px;
 }
 
-.about-me img {
+.about-row img {
     height: 85%;
     width: 85%;
     margin-left: 40px;
 }
 
+/*-----------------------------------------Client Section*/
+.client-info-container {
+    background-color: #fafafa;
+}
+
+.client h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.client-image {
+    height: 50%;
+    width: 50%;
+}
+
+.client-quote-container {
+    background-color: rgba(211,211,211, 0.4)
+}
+
+.client-quote {
+    padding: 20px 0;
+}
 /*-----------------------------------------Block Dividers*/
 
 .block-divider {

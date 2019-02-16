@@ -5,6 +5,14 @@ body {
     background-color: #fdfdfd;
 }
 
+/*-----------------------------------------Headings*/
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
 /*-----------------------------------------NavBar*/
 
 /*--Code taken from https://www.bootply.com/114896# (See README file)--*/
@@ -105,9 +113,6 @@ body {
 }
 
 .about-row h2 {
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 5px;
     margin-top: 10%;
     margin-left: 20px;
 }
@@ -128,14 +133,37 @@ body {
     background-color: #fafafa;
 }
 
-.client h2 {
-    text-transform: uppercase;
+.client-info-container h2 {
+    margin: 10% 0 25px 0;
+}
+
+.client-info-container h3 {
+    font-weight: 400;
     letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.client-stat {
+    font-size: 140%;
+    border-left: 4px solid #269ccc;
+    border-top: 4px solid #269ccc;
+    border-right: 4px solid #269ccc;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 20px auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .client-image {
     height: 50%;
     width: 50%;
+    border-radius: 8%;
+    border: 2px solid rgba(211,211,211, 1);
 }
 
 .client-quote-container {
@@ -144,6 +172,8 @@ body {
 
 .client-quote {
     padding: 20px 0;
+    font-size: 170%;
+    line-height: 2;
 }
 /*-----------------------------------------Block Dividers*/
 

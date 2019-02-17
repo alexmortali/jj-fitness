@@ -149,10 +149,6 @@ h2 {
     margin-top: 3%;
 }
 
-.client-block {
-    padding: 10px;
-}
-
 .client-name {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -171,6 +167,27 @@ h2 {
 .client-name {
     display: inline-block;
 }
+
+
+/*-----------------------------------------Training Section*/
+
+.training-container {
+    background-color: rgba(211, 211, 211, 0.4);
+    padding: 0;
+}
+
+.list-section {
+    list-style-type: none;
+}
+
+.image-section {
+    padding: 0;
+}
+
+.image-section img {
+    width: 100%;
+}
+
 
 /*-----------------------------------------Block Dividers*/
 

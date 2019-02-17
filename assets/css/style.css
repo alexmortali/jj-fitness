@@ -132,6 +132,7 @@ h2 {
 }
 
 /*-----------------------------------------Client Section*/
+
 .client-container {
     background: url('../images/client-bg-downsized.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
@@ -166,9 +167,11 @@ h2 {
     color: #269ccc;
 }
 
-.client-icon, .client-name {
+.client-icon,
+.client-name {
     display: inline-block;
 }
+
 /*-----------------------------------------Block Dividers*/
 
 .block-divider {
@@ -200,24 +203,42 @@ h2 {
 
 /*-----------------------------------------Media Queries*/
 
-@media (min-width: 992px) {
-    .navbar a {
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
-        letter-spacing: 5px;
-    }
-    .client-container {
-        height: 85vh;
-    }
-}
-
 @media (min-width: 768px) {
     .navbar a {
         padding-top: 5px !important;
         padding-bottom: 5px !important;
         letter-spacing: 5px;
     }
+
     .client-quote {
         margin-left: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar a {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        letter-spacing: 5px;
+    }
+
+    .about-me-container {
+        background: url('../images/about-background.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100vw;
+        padding-bottom: 70px;
+    }
+
+    .client-container {
+        height: 85vh;
+    }
+}
+
+@media (min-width: 1025px) {
+    .about-me-container {
+        height: 85vh;
     }
 }

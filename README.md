@@ -34,7 +34,10 @@ Technologies Used
 2 - CSS: This project uses CSS to control the presentation of the website.  
 3 - Bootstrap(3.3.7): This project uses Bootstrap as it's framework to make the site responsive.
 
-Testing
+Testing  
+When testing the website on various screen sizes it was obvious the clients section of the page wasn't visually appealing and
+didn't fit the flow of the website. Therefore I thought best to redo this section. I started with the wireframe then developed the new design
+and believe it now fits the flow of the website.
 
 Deployment
 
@@ -47,4 +50,5 @@ Media
 Both photos of Josh were provided by himself. The landing view photos for desktop and mobile were both taken from Adobe Stock,
 a stock image library.
 
-Acknowledgements
+Acknowledgements  
+The css for the collapsed navbar was taken from https://www.bootply.com/114896#

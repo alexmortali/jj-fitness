@@ -21,6 +21,8 @@ In the footer section there are links to his social media (Instagram, Facebook, 
 of his 6 pack guide provided to help build customer relations. 
 
 Features
+The site features a minimalist design with a constantly collapsed navbar fixed to the top. It has sections covering a about me, 
+clients, training, social media links, a downloadable pdf and a pop up modal for users to contact Josh.
 
 Feaures Left To Implement  
 In the future the website will have a check in system where clients can book a session directly through the website. 
@@ -47,8 +49,7 @@ Content
 All content throughout the site was written by me.
 
 Media  
-Both photos of Josh were provided by himself. The landing view photos for desktop and mobile were both taken from Adobe Stock,
-a stock image library.
+Both photos of Josh were provided by himself. All other photos were taken from https://stock.adobe.com/uk/ a stock image website.
 
 Acknowledgements  
 The css for the collapsed navbar was taken from https://www.bootply.com/114896#

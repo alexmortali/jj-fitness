@@ -26,7 +26,7 @@
                 <li><a href="#nav-about">About</a></li>
                 <li><a href="#nav-client">Clients</a></li>
                 <li><a href="#nav-training">Training</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><button class="btn nav-contact-button" data-toggle='modal' data-target='#contactModal'>Contact</button></li>
                 <li><a href="assets/six-pack-guide/6-pack-guide.pdf" target="_blank">6 Pack Guide</a></li>
             </ul>
         </div>
@@ -75,19 +75,19 @@
             </div>
             <div class="row client-block col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-6">
                 <i class="fa fa-quote-left client-icon hidden-xs"></i>
-                <h3 class="client-name">Jack Foulkes</h3>
+                <h3 class="client-name"><span class="hidden-xs">&nbsp;</span>Jack Foulkes</h3>
                 <p class="client-quote">"In just 2 months training with Josh I've seen a remarkable improvement in my fitness, strength and definition. His enthusiasm, knowledge and professionalism has greatly encouraged me to achieve my goals and go even further. I would thoroughly
                     recommend him to any one looking to the same."</p>
             </div>
             <div class="row client-block col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-6">
                 <i class="fa fa-quote-left client-icon hidden-xs"></i>
-                <h3 class="client-name">Danielle Jones</h3>
+                <h3 class="client-name"><span class="hidden-xs">&nbsp;</span>Danielle Jones</h3>
                 <p class="client-quote">“Josh has made the gym fun again! I have been working out for years and the gym has just been getting a bit boring and I just wasn’t seeing any results anymore. Josh has introduced me to a whole new way of training and continues to show
                     me new and fun excercises! He has helped me with my diet too and now not only am I seeing results again I am now looking forward to going to the gym.”</p>
             </div>
             <div class="row client-block col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-6">
                 <i class="fa fa-quote-left client-icon hidden-xs"></i>
-                <h3 class="client-name">Gary Pritchard</h3>
+                <h3 class="client-name"><span class="hidden-xs">&nbsp;</span>Gary Pritchard</h3>
                 <p class="client-quote">"I came to Josh to add some focus to my training, particularly around core stability and functional strength training. The sessions are really tailored to my goals and are always evolving to keep it fresh and challenging. I am really seeing
                     the benefits flow through to the other sports I take part in."</p>
             </div>
@@ -143,7 +143,38 @@
     <!-- /.Footer -->
 
     <!-- Contact Form Modal -->
-  
+     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="contactModalLabel">Get in touch...</h4>
+                    <p class="help-block">This form does not send messages or collect data. Please use the social media links found at the bottom of the page.</p>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Phone Number</label>
+                            <input type="tel" class="form-control" id="phonenumber" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea rows="3" class="form-control" id="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn contact-modal-btn" data-dismiss="modal">Ok!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- /Contact Form Modal -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

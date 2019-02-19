@@ -67,6 +67,14 @@ h2 {
     border-radius: 10%;
 }
 
+.nav-contact-button {
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #313639 !important;
+    border-color: transparent;
+    margin-right: 2px;
+}
 /*-----------------------------------------Landing View*/
 
 .callout-container {
@@ -144,7 +152,6 @@ h2 {
 }
 
 .client-row {
-    /*font-size: 100%;*/
     line-height: 2;
     margin-top: 3%;
 }
@@ -156,8 +163,6 @@ h2 {
 }
 
 .client-icon {
-    /*margin-left: -15px;
-    padding-right: 5px;*/
     font-size: 150%;
     font-weight: 600;
     color: #269ccc;

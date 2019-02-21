@@ -43,12 +43,12 @@ and believe it now fits the flow of the website.
 
 # DEPLOYMENT
 
-# CREDITS  
-CONTENT  
+# CREDITS:   
+# CONTENT  
     All content throughout the site was written by me.
 
-MEDIA  
+# MEDIA  
     Both photos of Josh were provided by himself. All other photos were taken from https://stock.adobe.com/uk/ a stock image website.
 
-ACKNOWLEDGEMENTS  
+# ACKNOWLEDGEMENTS  
     The css for the collapsed navbar was taken from https://www.bootply.com/114896#

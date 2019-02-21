@@ -20,8 +20,8 @@ and contact him if they wish. All of this is doable within a few clicks due to t
 In the footer section there are links to his social media (Instagram, Facebook, Twitter). The is also a free downloadable PDF 
 of his 6 pack guide provided to help build customer relations. 
 
-Features
-The site features a minimalist design with a constantly collapsed navbar fixed to the top. It has sections covering a about me, 
+Features  
+The site features a minimalist design with a constantly collapsed navbar fixed to the top. It has sections covering about me, 
 clients, training, social media links, a downloadable pdf and a pop up modal for users to contact Josh.
 
 Feaures Left To Implement  

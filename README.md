@@ -9,41 +9,41 @@ The website also includes a free pdf for his clients to download.
 
 # DEMO  
 
-UX  
-    When speaking with Josh he stated he doesn't want the website to feel intimidating but instead welcoming, easy to use and 
-    easy to navigate. This is why I have used a lot of negative space with a minimalist design to create a soft and easy feel. 
-    The grey/blue color scheme compliments to the open feel and links with the colors used in Josh's training facility.
-    
-    The users are able to get a glimpse of Josh's background, a testimonial from a client, the training service he provides, 
-    and contact him if they wish. All of this is doable within a few clicks due to the sleek user friendly design.
-    
-    In the footer section there are links to his social media (Instagram, Facebook, Twitter). The is also a free downloadable PDF 
-    of his 6 pack guide provided to help build customer relations. 
+# UX  
+When speaking with Josh he stated he doesn't want the website to feel intimidating but instead welcoming, easy to use and 
+easy to navigate. This is why I have used a lot of negative space with a minimalist design to create a soft and easy feel. 
+The grey/blue color scheme compliments to the open feel and links with the colors used in Josh's training facility.
 
-FEATURES  
-    The site features a minimalist design with a constantly collapsed navbar fixed to the top. It has sections covering about me, 
-    clients, training, social media links, a downloadable pdf and a pop up modal for users to contact Josh.
+The users are able to get a glimpse of Josh's background, a testimonial from a client, the training service he provides, 
+and contact him if they wish. All of this is doable within a few clicks due to the sleek user friendly design.
 
-FEAURES LEFT TO IMPLEMENT  
-    In the future the website will have a check in system where clients can book a session directly through the website. 
-    As of right now they have to contact Josh through the 'Contact' form.
-    
-    Also in the 'clients' section of the website there will be an option too view other clients testimonials. This will be 
-    implemented when Josh's client base grows using the 'Carousel' feature within Bootstrap.
+In the footer section there are links to his social media (Instagram, Facebook, Twitter). The is also a free downloadable PDF 
+of his 6 pack guide provided to help build customer relations. 
 
-TECHNOLOGIES USED  
-    1 - HTML: This project uses HTML as the skeleton of the website.  
-    2 - CSS: This project uses CSS to control the presentation of the website.  
-    3 - Bootstrap(3.3.7): This project uses Bootstrap as it's framework to make the site responsive.
+# FEATURES  
+The site features a minimalist design with a constantly collapsed navbar fixed to the top. It has sections covering about me, 
+clients, training, social media links, a downloadable pdf and a pop up modal for users to contact Josh.
 
-TESTING  
-    When testing the website on various screen sizes it was obvious the clients section of the page wasn't visually appealing and
-    didn't fit the flow of the website. Therefore I thought best to redo this section. I started with the wireframe then developed the new design
-    and believe it now fits the flow of the website.
+# FEAURES LEFT TO IMPLEMENT  
+In the future the website will have a check in system where clients can book a session directly through the website. 
+As of right now they have to contact Josh through the 'Contact' form.
 
-DEPLOYMENT
+Also in the 'clients' section of the website there will be an option too view other clients testimonials. This will be 
+implemented when Josh's client base grows using the 'Carousel' feature within Bootstrap.
 
-CREDITS  
+# TECHNOLOGIES USED  
+1 - HTML: This project uses HTML as the skeleton of the website.  
+2 - CSS: This project uses CSS to control the presentation of the website.  
+3 - Bootstrap(3.3.7): This project uses Bootstrap as it's framework to make the site responsive.
+
+# TESTING  
+When testing the website on various screen sizes it was obvious the clients section of the page wasn't visually appealing and
+didn't fit the flow of the website. Therefore I thought best to redo this section. I started with the wireframe then developed the new design
+and believe it now fits the flow of the website.
+
+# DEPLOYMENT
+
+# CREDITS  
 CONTENT  
     All content throughout the site was written by me.
 

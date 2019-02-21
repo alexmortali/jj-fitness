@@ -7,7 +7,7 @@ The website serves to create an online presence for Josh, it covers a bit about 
 a contact form and links to his social media.
 The website also includes a free pdf for his clients to download.
 
-DEMO
+# DEMO  
 
 UX  
     When speaking with Josh he stated he doesn't want the website to feel intimidating but instead welcoming, easy to use and 

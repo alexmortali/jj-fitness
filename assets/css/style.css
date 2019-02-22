@@ -190,7 +190,7 @@ h2 {
 }
 
 .training-row {
-    padding-bottom: 28px;
+    /*padding-bottom: 28px;*/
 }
 
 .training-row h2 {
@@ -207,8 +207,7 @@ h2 {
 .list-section h4 {
     display: inline;
     font-size: 1em;
-    position: relative;
-    bottom: 3px;
+    vertical-align: super;
     font-weight: 400;
 }
 
@@ -216,6 +215,40 @@ h2 {
     font-size: 2em;
     color: #269ccc;
     margin-right: 5px;
+}
+
+.training-bottom-element {
+    padding-bottom: 30px;
+}
+
+.class-info {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+#class-link {
+    font-style: italic;
+}
+
+.class-row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#more-icon {
+    color: #269ccc;
+    font-size: 3em;
+    margin-right: 5px;
+}
+
+#more-text {
+    font-size: 2em;
+    display: inline;
+    vertical-align: super;
+    font-weight: 400;
+    letter-spacing: 5px;
 }
 
 .image-section {
@@ -326,11 +359,11 @@ h2 {
     .navbar li {
         background: linear-gradient(to right, transparent, transparent, #B8B8B8);
     }
-    
+
     .navbar li:hover {
         background: linear-gradient(to right, transparent, transparent, #0050a1);
     }
-    
+
     .navbar a:hover,
     .nav-contact-button:hover {
         color: #fafafa !important;
@@ -363,6 +396,15 @@ h2 {
     }*/
     .list-section {
         margin-left: 0;
+    }
+
+    .stay-connected {
+        background-color: rgba(211, 211, 211, 0.5);
+    }
+
+    .download-guide {
+        background-color: #fdfdfd;
+        padding-bottom: 0;
     }
 }
 

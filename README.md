@@ -24,7 +24,7 @@ of his 6 pack guide provided to help build customer relations.
 The site features a minimalist design with a constantly collapsed navbar fixed to the top. It has sections covering about me, 
 clients, training, social media links, a downloadable pdf and a pop up modal for users to contact Josh.
 
-# FEAURES LEFT TO IMPLEMENT  
+# FEATURES LEFT TO IMPLEMENT  
 In the future the website will have a check in system where clients can book a session directly through the website. 
 As of right now they have to contact Josh through the 'Contact' form.
 

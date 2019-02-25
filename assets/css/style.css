@@ -284,6 +284,8 @@ h2 {
 .footer-icon {
     font-size: 2em;
     color: #269ccc;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
 }
 
 .social-icon {
@@ -328,6 +330,8 @@ h2 {
     background-color: #269ccc;
     color: #fafafa;
     margin-top: 18px;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
 }
 
 .btn--contact:hover,
@@ -376,7 +380,8 @@ h2 {
 }
 
 @media (max-width: 992px) {
-    .callout-container, .client-container {
+    .callout-container,
+    .client-container {
         background-attachment: scroll;
     }
 }

@@ -49,7 +49,7 @@ are links to his social media that will open in a new tab along with a download 
 This will also open in a new tab and be downloadable from there.
 
 The contact form doesn't currently send any data so there is a message at the top of the form directing the user to Josh's social media links.
-If they do however try to fill in the form they and they enter any invalid information there will be an error message due to the 'required' attribute 
+If they do however try to fill in the form they and they miss out some information there will be an error message due to the 'required' attribute 
 attached to the 'name', 'email' and 'message' fields. When the form does send data, it will not submit unless these fields are filled in.
 
 The site was tested on Chrome and Safari on multiple devices including iPhone 7/8, iPad, it was also tested on Internet Explorer on 

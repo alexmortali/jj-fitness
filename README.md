@@ -63,11 +63,8 @@ The site is deployed directly from the master branch and is hosted using GitHub 
 the site to work correctly.
 
 # CREDITS:   
-CONTENT  
-    All content throughout the site was written by me.
+CONTENT - All content throughout the site was written by me.
 
-MEDIA  
-    Both photos of Josh were provided by himself. All other photos were taken from https://stock.adobe.com/uk/ a stock image website.
+MEDIA - Both photos of Josh were provided by himself. All other photos were taken from https://stock.adobe.com/uk/ a stock image website.
 
-ACKNOWLEDGEMENTS  
-    The css for the collapsed navbar was taken from https://www.bootply.com/114896#
+ACKNOWLEDGEMENTS - The css for the collapsed navbar was taken from https://www.bootply.com/114896#

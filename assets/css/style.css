@@ -189,10 +189,6 @@ h2 {
     padding: 0;
 }
 
-.training-row {
-    /*padding-bottom: 28px;*/
-}
-
 .training-row h2 {
     margin-top: 10%;
 }
@@ -403,9 +399,6 @@ h2 {
         padding-bottom: 70px;
     }
 
-    /*.client-container {
-        height: 120%;
-    }*/
     .list-section {
         margin-left: 0;
     }
@@ -428,11 +421,19 @@ h2 {
     .image-section img {
         max-height: 600px;
     }
+
+    .about-row {
+        font-size: 120%;
+    }
 }
 
 @media (min-width: 1440px) {
     .list-section {
         margin-left: 13%;
         font-size: 120%;
+    }
+
+    .about-row {
+        font-size: 150%;
     }
 }

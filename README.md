@@ -8,7 +8,7 @@ a contact form and links to his social media.
 The website also includes a free pdf for his clients to download.
 
 # DEMO  
-A live demo can be found at - https://alexmortali.github.io/jj-fitness-ucfd-project/
+A live demo can be found at - https://alexmortali.github.io/jj-fitness/
 
 # UX  
 When speaking with Josh he stated he doesn't want the website to feel intimidating but instead welcoming, easy to use and 
